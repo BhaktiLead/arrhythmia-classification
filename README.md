@@ -1,4 +1,4 @@
-# Irregular Heartbeat Detection using a Convolution Neural Network
+# Arrhythmia Classification using Custom AlexNet
 Arrhythmia is an irregularity in the rate or rhythm of the heartbeat which, in some cases, may occur sporadically in a subjects daily life. Therefore, the automatic recognition of abnormal heartbeats from a large amount of ECG data is an important and essential task. In this project, a novel deep learning approach is proposed for ECG beat classification using a 2-Dimension convolution neural network.  Experiments are done on a public dataset called the MIT-BIH Arrhythmia.
 
 ## Dependencies
