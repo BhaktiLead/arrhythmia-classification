@@ -10,7 +10,8 @@ import natsort  # module used to sort file names
 if __name__ == '__main__':
 
 	#find directory where data is
-	signal_dir = directory_structure.getReadDirectory('mit-bih_waveform')
+	#signal_dir = directory_structure.getReadDirectory('mit-bih_waveform')
+	signal_dir = directory_structure.getReadDirectory('/content/arrhythmia-classification/mit-bih_waveform')
 
 	#get all .hea and .dat files (respectively)
 	signal_files = directory_structure.filesInDirectory('.hea', signal_dir)
